@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+.calculator {
+    margin-top: 100px;
+    width: 300px;
+    margin: auto;
+}
+.inputs input[type="button"] {
+    width: 50px;
+    height: 50px;
+}
+#display {
+    width: 86%;
+    margin-bottom: 10px;
+}
+/* Tema escuro */
+.dark-theme {
+    background-color: #333;
+    color: white;
+}
+input[value="C"]{
+    background-color: greenyellow;
+}
+input[value="="]{
+    background-color: gray;
+}
+.history {
+width: calc(100% - 10px);
+height: 50px;
+font-size: 1.2em;
+margin-bottom: 10px;
+padding: 5px;
+text-align: center;
+}
